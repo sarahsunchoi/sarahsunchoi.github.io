@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content=" su un ">
+    <meta name="author" content=" his.imagination ">
+
+    <title>Sarah Choi</title>
+
+    <link href="css/mystyle.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div class="menubox">
+
+</div>
+
+<div class="maincontent">
+	<ul>
+		<li class="artpreview "><img id="scribblepage"  class="thumbnail" src="previewpics/scribblepreview.jpg" alt="art"></li>
+		<li class="artpreview "><img id="deadfishpage"  class="thumbnail" src="previewpics/deadfishpreview.jpg" alt="art"></li>
+		<li class="artpreview "><img id="choistonepage"  class="thumbnail" src="previewpics/choistonepreview.jpg" alt="art"></li>
+		<li class="artpreview "><img id="mommypage"  class="thumbnail" src="previewpics/mommypreview.jpg" alt="art"></li>
+		<li class="artpreview "><img id="linesbpage"  class="thumbnail" src="previewpics/linesbpreview.jpg" alt="art"></li>
+		<li class="artpreview "><img id="hypnoeyepage"  class="thumbnail" src="previewpics/hypnoeyepreview.jpg" alt="art"></li>
+		<li class="artpreview "><img id="fucktigerpage"  class="thumbnail" src="previewpics/fucktigerpreview.jpg" alt="art"></li>
+		<li class="artpreview "><img id="diamondpage"  class="thumbnail" src="previewpics/diamondpreview.jpg" alt="art"></li>
+		<li class="artpreview "><img id="blackandwhitepage"  class="thumbnail" src="previewpics/blackandwhitepreview.jpg" alt="art"></li>
+		<li class="artpreview "><img id="bedroommoonpage"  class="thumbnail" src="previewpics/bedroommoonpreview.jpg" alt="art"></li>
+		<li class="artpreview "><img id="bitchywomenpage"  class="thumbnail" src="previewpics/bitchywomenpreview.jpg" alt="art"></li>
+		<li class="artpreview "><img id="sunsetpage"  class="thumbnail" src="previewpics/sunsetpreview.jpg" alt="art"></li>
+	</ul>
+</div>
+
+<!--scripts-->
+<script src="js/jquery.js"></script>
+<script src="js/js.js"></script>
+
+</body>
+
+<script>
+$(document).ready(function() {
+        $('img.thumbnail').click(function() {
+            window.location.href = 'graphicpages/' + this.id + '.html';
+        });
+    });
+</script>
+
+</html>

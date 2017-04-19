@@ -1,2 +1,2 @@
-# sarahsunchoi.github.io
-art projects
+# sarahsunchoi
+art portfolio

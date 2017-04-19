@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content=" su un ">
+    <meta name="author" content=" his.imagination ">
+
+    <title>Sarah Choi</title>
+
+    <link href="css/mystyle.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div class="menubox">
+
+</div>
+
+<div class="maincontent">
+	<ul>
+		<li class="artpreview "><img id="revepage"  class="thumbnail" src="previewpics/revepreview.jpg" alt="art"></li>
+		<li class="artpreview "><img id="soundtravellerpage"  class="thumbnail" src="previewpics/soundtravellerpreview.jpg" alt="art"></li>
+		<li class="artpreview "><img id="destructiveboxespage"  class="thumbnail" src="previewpics/destructiveboxespreview.jpg" alt="art"></li>
+		<li class="artpreview "><img id="spacebedpage"  class="thumbnail" src="previewpics/spacebedpreview.jpg" alt="art"></li>
+		<li class="artpreview "><img id="fracturapage"  class="thumbnail" src="previewpics/fracturapreview.jpg" alt="art"></li>
+		<li class="artpreview "><img id="brokenmirrorpage"  class="thumbnail" src="previewpics/brokenmirrorpreview.jpg" alt="art"></li>
+		<li class="artpreview "><img id="spacebasspage"  class="thumbnail" src="previewpics/spacebasspreview.jpg" alt="art"></li>
+	</ul>
+</div>
+
+<!--scripts-->
+<script src="js/jquery.js"></script>
+<script src="js/js.js"></script>
+</body>
+
+<script>
+$(document).ready(function() {
+        $('img.thumbnail').click(function() {
+            window.location.href = 'installationpages/' + this.id + '.html';
+        });
+    });
+</script>
+
+</html>
