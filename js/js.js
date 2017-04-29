@@ -12,7 +12,7 @@ $(function(){
 		<li style="margin-top: 10px;"><a href="http://www.sarahsunchoi.com/about.html">a b o u t</a></li> \
 		<li style="margin-top: 40px;"> \
 		<li style="margin-top: 40px;"> \
-		<li><a href="http://www.sarahsunchoi.com/painting.html">P A I N T I N G NEEEEEEWWWWWWW</a></li> \
+		<li><a href="http://www.sarahsunchoi.com/painting.html">P A I N T I N G</a></li> \
 		<li><a href="http://www.sarahsunchoi.com/graphic.html">G R A P H I C</a></li> \
 		<li><a href="http://www.sarahsunchoi.com/installation.html">I N S T A L L A T I O N</a> \
 		<li style="margin-top: 40px;"><a href="https://www.facebook.com/sarahsunchoiart/">f a c e b o o k</a></li> \
